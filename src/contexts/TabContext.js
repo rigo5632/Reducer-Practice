@@ -12,7 +12,7 @@ const TabContextProvider = (props) => {
             He wished he could go back and learn to find the excitement that came with change but it was useless. 
             That curiosity had long left him to where he had come to loathe anything that put him out of his comfort zone.`,
             display: false,
-            id: 1
+            id: 0
         },
         { 
             title: 'Tab-2',
@@ -20,7 +20,7 @@ const TabContextProvider = (props) => {
             heart started racing and he bolted into a full sprint. "It wasn't a gunshot, it wasn't a gunshot,"
             he repeated under his breathlessness as he continued to sprint.`,
             display: false,
-            id: 2 
+            id: 1 
         },
         { 
             title: 'Tab-3',
@@ -29,7 +29,7 @@ const TabContextProvider = (props) => {
             the carnivore before it vanished behind a sign atop a nearby building which bore the mystifying 
             information "Pepsi-Cola."`,
             display: false,
-            id: 3 
+            id: 2
         },
         { 
             title: 'Tab-4', 
@@ -38,7 +38,7 @@ const TabContextProvider = (props) => {
             should have been able to complete it on time, but that wasn't the case. The deadline had arrived
             and the project remained unfinished.`,
             display: false,
-            id: 4 
+            id: 3
         },
         { 
             title: 'Tab-5',
@@ -47,7 +47,7 @@ const TabContextProvider = (props) => {
             He wished he could go back and learn to find the excitement that came with change but it was useless. 
             That curiosity had long left him to where he had come to loathe anything that put him out of his comfort zone.`,
             display: false,
-            id: 5
+            id: 4
         },
         { 
             title: 'Tab-6',
@@ -55,7 +55,7 @@ const TabContextProvider = (props) => {
             heart started racing and he bolted into a full sprint. "It wasn't a gunshot, it wasn't a gunshot,"
             he repeated under his breathlessness as he continued to sprint.`,
             display: false,
-            id: 6
+            id: 5
         },
         { 
             title: 'Tab-7',
@@ -64,7 +64,7 @@ const TabContextProvider = (props) => {
             the carnivore before it vanished behind a sign atop a nearby building which bore the mystifying 
             information "Pepsi-Cola."`,
             display: false,
-            id: 7
+            id: 6
         },
         { 
             title: 'Tab-8', 
@@ -73,7 +73,7 @@ const TabContextProvider = (props) => {
             should have been able to complete it on time, but that wasn't the case. The deadline had arrived
             and the project remained unfinished.`,
             display: false,
-            id: 8
+            id: 7
         }
     ])
 

@@ -1,17 +1,17 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
-const CollapsibleTitle = ({ tabs }) => {
+const CollapsibleTitle = ({ tabs, styles }) => {
     return (
-        <ul className="list-group">
+        <div className={styles.titleListGroup}>
             {tabs.map(tab =>{
-                const { header, id } = tab;
+                const { title , id } = tab;
                 return(
-                    <li key={ id } className="list-group-item">
-                        { header }
-                    </li>
+                    <Fragment key={id}>
+                        {title}  
+                    </Fragment>
                 );
             })}
-        </ul>
+        </div>
      );
 }
  
